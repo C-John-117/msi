@@ -1,0 +1,20 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+ xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+	<Package Id="TODO_Manufacturer.demo.msi"
+	Name="Wix_Uhrweiller"
+	Manufacturer="Uhrweiller"
+	Version="1.0.0"
+	InstallerVersion="500"
+	Compressed="yes">
+		<MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+		<Feature Id="Main">
+			<ComponentGroupRef Id="ExampleComponents" />
+		</Feature>
+		<!-- Interface avec page de bienvenue, il permet aussi de choisir où installer -->
+		<ui:WixUI Id="WixUI_InstallDir" InstallDirectory="INSTALLFOLDER"/>
+
+		<!-- pour ma licence -->
+		<ui:WixVariable Id="WixUILicenseRtf" Value="Document\licence.rtf" />
+
+	</Package>
+</Wix>

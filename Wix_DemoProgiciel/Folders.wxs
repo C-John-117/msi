@@ -1,0 +1,16 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <StandardDirectory Id="ProgramFiles6432Folder">
+      <Directory Id="INSTALLFOLDER" Name="!(bind.Property.Manufacturer) !(bind.Property.ProductName)" />
+    </StandardDirectory>
+	  
+	  <!-- Pour definir le dossier bureau à MSI-->
+	  <StandardDirectory Id="DesktopFolder" />
+
+
+	  <!-- Pour definir le dossier AU menu démarrer à MSI-->
+	  <StandardDirectory Id="ProgramMenuFolder">
+		  <Directory Id="AppProgramMenuDir" Name="!(bind.Property.ProductName)" />
+	  </StandardDirectory>
+  </Fragment>
+</Wix>

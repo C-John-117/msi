@@ -1,0 +1,19 @@
+## Ignorer les dossiers de build et binaires
+bin/
+obj/
+Setup/
+
+## Ignorer les fichiers utilisateur Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignorer les fichiers de cache
+.vs/
+*.cache
+*.log
+
+## Ignorer les fichiers NuGet
+*.nupkg
+packages/
