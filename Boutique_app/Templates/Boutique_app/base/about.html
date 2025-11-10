@@ -1,0 +1,240 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- Page Title -->
+<div class="page-title light-background">
+  <div class="container d-lg-flex justify-content-between align-items-center">
+    <h1 class="mb-2 mb-lg-0">À propos</h1>
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="index.html">Accueil</a></li>
+        <li class="current">À propos</li>
+      </ol>
+    </nav>
+  </div>
+</div><!-- End Page Title -->
+
+<!-- About 2 Section -->
+<section id="about-2" class="about-2 section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <span class="section-badge"><i class="bi bi-info-circle"></i> À propos de nous</span>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="about-title">Qui sommes-nous ?</h2>
+        <p class="about-description">Nous sommes une équipe d'étudiants du Cégep de Chicoutimi avec une passion pour les jeux vidéos. Nous voulons partager cette passion avec le monde entier.</p>
+      </div>
+      <div class="col-lg-6">
+        <p class="about-text">Nous nous sommes regrouper de manière aléatoire lors d'un cours pour un projet. Ce projet était de créer la Boutique la plus fonctionnelle et magnifique.</p>
+        <p class="about-text">Nous avons travailler nuit et jour sans arrêt pour produire cette Boutique.</p>
+      </div>
+    </div>
+
+    <div class="row features-boxes gy-4 mt-3">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="feature-box">
+          <div class="icon-box">
+            <i class="bi bi-bullseye"></i>
+          </div>
+          <h3>Objectif</h3>
+          <p>Vendre des jeux vidéos à nos clients.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="feature-box">
+          <div class="icon-box">
+            <i class="bi bi-person-check"></i>
+          </div>
+          <h3>Appréciation</h3>
+          <p>Nous avons une clientèle fidèle qui nous permet d'être en constante évolution.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="feature-box">
+          <div class="icon-box">
+            <i class="bi bi-clipboard-data"></i>
+          </div>
+          <h3>Qualité</h3>
+          <p>Notre collection possède seulement des jeux de qualités. Chaque produits est tester intesivement pour s'assurer d'être à la hauteur des attentes de nos clients.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /About 2 Section -->
+
+<!-- Stats Section -->
+<section id="stats" class="stats section light-background">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item">
+          <i class="bi bi-emoji-smile"></i>
+          <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Clients heureux</strong> <span>et fière de magasiner chez nous</span></p>
+        </div>
+      </div><!-- End Stats Item -->
+
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item">
+          <i class="bi bi-journal-richtext"></i>
+          <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Jeux</strong> <span>dans notre collection</span></p>
+        </div>
+      </div><!-- End Stats Item -->
+
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item">
+          <i class="bi bi-headset"></i>
+          <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Heures de support</strong> <span> pour des problèmes relier aux jeux vidéos</span></p>
+        </div>
+      </div><!-- End Stats Item -->
+
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item">
+          <i class="bi bi-people"></i>
+          <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+          <p><strong>Employés</strong> <span>qui permettent de garder notre entreprise en constante évolution </span></p>
+        </div>
+      </div><!-- End Stats Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Stats Section -->
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section">
+
+  <div class="container">
+
+    <div class="testimonial-masonry">
+
+      <div class="testimonial-item" data-aos="fade-up">
+        <div class="testimonial-content">
+          <div class="quote-pattern">
+            <i class="bi bi-quote"></i>
+          </div>
+          <p>Implémenter des stratégies innovatives pour révolutionner notre approche au marché.</p>
+          <div class="client-info">
+            <div class="client-image">
+              <img src="{% static 'assets/img/person/person-f-7.webp' %}" alt="Client">
+            </div>
+            <div class="client-details">
+              <h3>Rachel Bennett</h3>
+              <span class="position">Directrice de Stratégie</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="100">
+        <div class="testimonial-content">
+          <div class="quote-pattern">
+            <i class="bi bi-quote"></i>
+          </div>
+          <p>
+Un service exceptionnel et des solutions innovantes ont transformé nos opérations commerciales, entraînant une croissance remarquable et une satisfaction client accrue à tous les niveaux.</p>
+          <div class="client-info">
+            <div class="client-image">
+              <img src="{% static 'assets/img/person/person-m-7.webp' %}" alt="Client">
+            </div>
+            <div class="client-details">
+              <h3>Daniel Morgan</h3>
+              <span class="position">Chef d'Innovation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="testimonial-content">
+          <div class="quote-pattern">
+            <i class="bi bi-quote"></i>
+          </div>
+          <p>Ce partenariat stratégique a permis une transformation numérique harmonieuse et une excellence opérationnelle.</p>
+          <div class="client-info">
+            <div class="client-image">
+              <img src="{% static 'assets/img/person/person-f-8.webp' %}" alt="Client">
+            </div>
+            <div class="client-details">
+              <h3>Emma Thompson</h3>
+              <span class="position">Responsable numérique</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="testimonial-content">
+          <div class="quote-pattern">
+            <i class="bi bi-quote"></i>
+          </div>
+          <p>L'expertise et le dévouement des professionnels ont considérablement amélioré les délais de réalisation de nos projets et nos indicateurs de qualité.</p>
+          <div class="client-info">
+            <div class="client-image">
+              <img src="{% static 'assets/img/person/person-m-8.webp' %}" alt="Client">
+            </div>
+            <div class="client-details">
+              <h3>Christopher Lee</h3>
+              <span class="position">Directeur technique</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="400">
+        <div class="testimonial-content">
+          <div class="quote-pattern">
+            <i class="bi bi-quote"></i>
+          </div>
+          <p>Notre approche collaborative et notre expertise sectorielle ont révolutionné notre cycle de développement produit, ce qui a permis une mise sur le marché plus rapide et une augmentation de l'engagement client.</p>
+          <div class="client-info">
+            <div class="client-image">
+              <img src="{% static 'assets/img/person/person-f-9.webp' %}" alt="Client">
+            </div>
+            <div class="client-details">
+              <h3>Olivia Carter</h3>
+              <span class="position">Chef de produit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
+        <div class="testimonial-content">
+          <div class="quote-pattern">
+            <i class="bi bi-quote"></i>
+          </div>
+          <p>Notre approche novatrice en matière de conception de l'expérience utilisateur a considérablement amélioré les indicateurs d'engagement et les taux de fidélisation de la clientèle de notre plateforme.</p>
+          <div class="client-info">
+            <div class="client-image">
+              <img src="{% static 'assets/img/person/person-m-13.webp' %}" alt="Client">
+            </div>
+            <div class="client-details">
+              <h3>Nathan Brooks</h3>
+              <span class="position">Directeur UX</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- /Testimonials Section -->
+
+{% endblock %}
+
+  
